@@ -297,8 +297,8 @@ export async function generateReceiptImage(receipt: Receipt, language: string): 
   ctx.fillStyle = "#999999"
   ctx.font = "12px Arial"
   ctx.textAlign = "center"
-  ctx.fillText("VoicePay - Voice Banking for Everyone", canvas.width / 2, y)
-  ctx.fillText("Built by Dynamites", canvas.width / 2, y + 20)
+  ctx.fillText(" - Voice Banking for Everyone", canvas.width / 2, y)
+  ctx.fillText("", canvas.width / 2, y + 20)
 
   // Convert canvas to data URL
   return canvas.toDataURL("image/png")

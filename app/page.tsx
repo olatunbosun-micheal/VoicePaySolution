@@ -121,7 +121,7 @@ export default function SplashScreen() {
             </span>
           </h1>
           <h2 className="text-6xl md:text-8xl font-black text-primary drop-shadow-lg animate-scale-in">
-            VoicePay
+            AfriVoicePay
           </h2>
           <p className="text-2xl md:text-3xl text-muted-foreground font-medium animate-fade-in-delayed">
             Voice Banking for Everyone
@@ -131,7 +131,7 @@ export default function SplashScreen() {
         {/* Built by credit */}
         <div className="pt-8 animate-fade-in-delayed-2">
           <p className="text-lg md:text-xl text-muted-foreground/80 font-medium">
-            Built by <span className="text-primary font-bold text-2xl">Dynamites</span>
+            A product of  <span className="text-primary font-bold text-2xl">Micheal's AI Solutions</span>
           </p>
         </div>
 
