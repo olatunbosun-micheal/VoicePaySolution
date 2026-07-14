@@ -48,7 +48,7 @@ export default function LoginCue() {
     // Clear any prior utterances to avoid overlap
     try { window.speechSynthesis?.cancel?.() } catch {}
     const text = `${(texts[langToUse] || texts.en).title}. ${(texts[langToUse] || texts.en).desc}`
-    const timer = setTimeout(() => narrator.speak(text, "high"), 350)
+    const timer = setTimeout(() => narrator?.speak(text, "high"), 350)
     return () => clearTimeout(timer)
   }, [language])
 

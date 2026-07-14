@@ -94,7 +94,7 @@ export function ChatAssistant() {
     if (narrator) {
       narrator.setLanguage(initialLang)
       narrator.setEnabled(true)
-      setTimeout(() => narrator.speak(greeting), 500)
+      setTimeout(() => narrator?.speak(greeting), 500)
     }
   }, [])
 
