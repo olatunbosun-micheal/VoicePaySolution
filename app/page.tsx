@@ -114,7 +114,10 @@ export default function SplashScreen() {
         </div>
 
         {/* Main Title with elegant font */}
-        <div className="space-y-4 animate-slide-up">
+        <div className="space-y-4 animate-slide-up flex flex-col items-center">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-600 dark:text-amber-400 text-xs font-semibold uppercase tracking-wider animate-pulse mb-2">
+            Beta Testing State
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold text-foreground tracking-tight">
             <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient">
               Welcome to
@@ -129,10 +132,17 @@ export default function SplashScreen() {
         </div>
 
         {/* Built by credit */}
-        <div className="pt-8 animate-fade-in-delayed-2">
+        <div className="pt-8 space-y-2 animate-fade-in-delayed-2 flex flex-col items-center">
           <p className="text-lg md:text-xl text-muted-foreground/80 font-medium">
-            A product of  <span className="text-primary font-bold text-2xl">Micheal's AI Solutions</span>
+            a product of <span className="text-primary font-bold text-2xl">Dynamite Team</span>
           </p>
+          <Button
+            variant="link"
+            onClick={() => router.push("/team")}
+            className="text-primary hover:text-accent font-semibold text-base transition-colors"
+          >
+            Meet the Team
+          </Button>
         </div>
 
         <div className="pt-12 animate-fade-in-delayed-2">

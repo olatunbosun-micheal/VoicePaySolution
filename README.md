@@ -1,6 +1,6 @@
-# VoicePay — Inclusive Financial Assistant
+# AfriVoicePay — Inclusive Financial Assistant
 
-**VoicePay** is a multilingual, voice-enabled assistant that helps underserved users complete everyday money tasks simply and safely.
+**AfriVoicePay** is a multilingual, voice-enabled assistant that helps underserved users complete everyday money tasks simply and safely.
 
 ### Purpose
 

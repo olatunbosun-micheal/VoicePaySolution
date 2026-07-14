@@ -70,7 +70,7 @@ export async function POST(req: Request) {
         pcm: "I dey here to help! I fit help you send money, pay bill, buy airtime, and manage your savings. Wetin you wan do?",
       }
       return new Response(
-        JSON.stringify({ text: fallbackResponses[language] || fallbackResponses.en }),
+        JSON.stringify({ text: fallbackResponses[reqLanguage] || fallbackResponses.en }),
         { headers: { "Content-Type": "application/json" } },
       )
     }
@@ -136,7 +136,7 @@ export async function POST(req: Request) {
 
       return new Response(
         JSON.stringify({
-          text: fallbackResponses[language] || fallbackResponses.en,
+          text: fallbackResponses[reqLanguage] || fallbackResponses.en,
         }),
         {
           headers: { "Content-Type": "application/json" },

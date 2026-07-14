@@ -3,12 +3,7 @@ const nextConfig = {
   // Enable React Strict Mode for better development practices
   reactStrictMode: true,
   
-  // Configure i18n for internationalization
-  i18n: {
-    locales: ['en', 'yo', 'ig', 'ha', 'pcm'],
-    defaultLocale: 'en',
-    localeDetection: true,
-  },
+  // i18n is handled client-side/customly, so the native config block is removed to avoid App Router warnings
   
   // Add webpack configuration if needed
   webpack: (config, { isServer }) => {

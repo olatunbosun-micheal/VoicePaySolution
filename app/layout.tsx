@@ -21,8 +21,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "VoicePay — Inclusive Voice Banking",
-  description: "Send money, pay bills, buy airtime and save with VoicePay",
+  title: "AfriVoicePay — Inclusive Voice Banking",
+  description: "Send money, pay bills, buy airtime and save with AfriVoicePay",
 }
 
 export default function RootLayout({
